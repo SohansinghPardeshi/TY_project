@@ -1,1 +1,78 @@
-<h1> Welcome to the Home Page </h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Fire Prediction</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            color: rgb(0, 255, 170);
+        }
+
+        h1 {
+            color: #5833ff;
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        /* Add styles for the button */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            animation: fadeIn 4s ease-in-out;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+
+        /* Animation for fadeIn effect */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Forest Fire Prediction</h1>
+
+        <a href="predictdata" class="btn">Go to Prediciton Page</a>
+    </div>
+</body>
+
+</html>
